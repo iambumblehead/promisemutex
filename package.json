@@ -1,0 +1,36 @@
+{
+  "name": "promisemutex",
+  "version": "0.0.1",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "description": "promises added to the mutex are handled sequentially",
+  "author": "Chris <chris@bumblehead.com>",
+  "main": "promisemutex.js",
+  "module": "promisemutex.js",
+  "files": [
+    "promisemutex.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/promisemutex.git"
+  },
+  "keywords": [
+    "promisemutex"
+  ],
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "esm": "^3.2.25",
+    "eslint": "^7.17.0",
+    "babel-eslint": "^10.1.0"
+  },
+  "ava": {
+    "timeout": "2m",
+    "require": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint *js"
+  }
+}
