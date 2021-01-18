@@ -7,7 +7,7 @@ promisemutex
 Promises added to the mutex are handled sequentially.
 
 ``` javascript
-import promisemutex from './promisemutex';
+import promisemutex from 'promisemutex';
 
 const mutex = promisemutex();
 
