@@ -1,5 +1,5 @@
 {
-  "name": "promisemutex",
+  "name": "@bumblehead/promisemutex",
   "version": "0.0.1",
   "license": "MIT",
   "readmeFilename": "README.md",
