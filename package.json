@@ -30,7 +30,7 @@
     ]
   },
   "scripts": {
-    "test": "ava",
+    "test": "npm run lint && ava",
     "lint": "eslint *js"
   }
 }
